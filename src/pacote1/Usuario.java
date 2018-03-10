@@ -21,7 +21,7 @@ public class Usuario extends Academia {
 	private float bracoDireito;
 	private float bracoEsquerdo;
 	private float pernaDireita;
-	private float pernaEsquerda;;
+	private float pernaEsquerda;
 	
 	
 	/* Métodos sobrescritos da Classe Academia*/
@@ -90,22 +90,22 @@ public class Usuario extends Academia {
 		return coxaEsquerda;
 	}
 	float bracoDireito () {
-		System.out.println("Insira a coxa Esquerda (cm): ");
+		System.out.println("Insira a braco Direito (cm): ");
 		bracoDireito = read.nextFloat();
 		return bracoDireito;
 	}
 	float bracoEsquerdo () {
-		System.out.println("Insira a coxa Esquerda (cm): ");
+		System.out.println("Insira a braco Esquerda (cm): ");
 		bracoEsquerdo = read.nextFloat();
 		return bracoEsquerdo;
 	}
 	float pernaDireita () {
-		System.out.println("Insira a coxa Esquerda (cm): ");
+		System.out.println("Insira a perna Direita (cm): ");
 		pernaDireita = read.nextFloat();
 		return pernaDireita;
 	}
 	float pernaEsquerda () {
-		System.out.println("Insira a coxa Esquerda (cm): ");
+		System.out.println("Insira a perna Esquerda (cm): ");
 		pernaEsquerda = read.nextFloat();
 		return pernaEsquerda;
 	}
